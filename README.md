@@ -152,9 +152,3 @@ docker-compose up --build
 ```
 
 Теперь ваш веб-сервер на Go будет случайным образом выбирать звуковые файлы из примонтированного облачного диска и потоково стримить музыку с 5-секундным эффектом затухания между треками. Nginx будет выступать в роли обратного прокси для вашего Go сервера, и все это будет работать в Docker-контейнерах.
-
-Источник: беседа с Copilot, 04.10.2024
-(1) How To Deploy a Go Web Application Using Nginx on Ubuntu 18.04. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-go-web-application-using-nginx-on-ubuntu-18-04.
-(2) Deploying a Go Web Application Using Nginx on Ubuntu 22.04. https://www.atlantic.net/dedicated-server-hosting/deploying-a-go-web-application-using-nginx-on-ubuntu-22-04/.
-(3) How To Deploy a Go Web Application with Docker and Nginx on Ubuntu 22. .... https://www.digitalocean.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker-and-nginx-on-ubuntu-22-04.
-(4) Getty Images. https://www.gettyimages.com/detail/news-photo/in-this-photo-illustration-the-nginx-logo-is-displayed-on-a-news-photo/1244811361.
