@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  music-streamer:
+    build: .
+    volumes:
+      - /path/to/mounted/cloud/disk:/path/to/mounted/cloud/disk
+    ports:
+      - "8080:8080"
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - music-streamer
